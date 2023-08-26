@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    background-color: rgb(31, 30, 30);
+    padding: 5px;
+    font-family: Lato;
+    margin: 5px;
+    box-sizing: border-box;
+    color: white;
+}
+
+hr {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.home {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+    width: auto;
+    /* flex-wrap: wrap; */
+}
+
+.about-me-card img {
+    margin-top: 10px;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+}
+
+.about-me-description h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-me-description {
+    letter-spacing: 10%;
+    word-spacing: 10%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.tech-logos .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    color: white;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 600px;
+    height: auto;
+    width: 100%;
+    /* background-color: white; */
+}
+
+.project-heading {
+    font-size: 40px;
+    text-align: center;
+    /* background-color: white; */
+    position: relative;
+    font-weight: 1000;
+    color: white;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.card {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.links {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+
+.fa {
+    margin: 0 10px;
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    color: white;
+}
+
+.card h1 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.card p {
+    letter-spacing: 20%;
+    color: white;
+}
+
+.card-image {
+    width: 100%;
+    /* Make the image take up the full width of the card */
+    height: auto;
+    /* Maintain the aspect ratio */
+    display: block;
+    border-radius: 10%;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer-info {
+    color: white;
+    font-size: 30px;
+}
+
+.footer-logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.to-follow {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-media .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.footer-email {
+    font-size: 15px;
+}
+
+.footer-phone {
+    font-size: 15px;
+}
