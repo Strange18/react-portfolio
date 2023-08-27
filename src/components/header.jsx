@@ -1,11 +1,11 @@
 
 
-function Header() {
+function Header(props) {
     return (
         <>
             <section class="navbar-section">
                 <div class="navbar-logo">
-                    <p>Prashant</p>
+                    <p>{props.logo}</p>
                 </div>
                 <div class="navbar">
                     <a href="#home">Home</a>
@@ -17,7 +17,12 @@ function Header() {
                 </div>
             </section>
             <section class="home" id="home">
-                <p class="home-content">Hi! I am Prashant Raj Bista. <br/> I am a Full Stack Web Developer. </p>
+                <p class="home-content">{props.intro.split('\n').map((line) => (
+                    <>
+                        {line}
+                        < br />
+                    </>
+                ))}</p>
             </section>
             <hr></hr>
         </>
