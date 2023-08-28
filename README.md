@@ -23,3 +23,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+The output will look like:
+![picture for demo output](./output1.png "Demo Output")
+![picture for demo output](./output2.png "Demo Output")
+![picture for demo output](./output3.png "Demo Output")
+![picture for demo output](./output4.png "Demo Output")
