@@ -58,11 +58,12 @@ hr {
 .about {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     height: 500px;
     width: auto;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    text-overflow: clip;
 }
 
 .about-me-card img {

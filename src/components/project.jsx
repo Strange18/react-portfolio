@@ -16,8 +16,10 @@ function Project(props) {
 
 
                         <div class="links">
-                            <a href="#" target="_blank" class="fa fa-github"></a>
-                            <a href="#" target="_blank" class="fa fa-globe"></a>
+                            {item.github && (<a href={item.github} target="_blank" class="fa fa-github"></a>
+                            )}
+                            {item.website && (<a href={item.website} target="_blank" class="fa fa-globe"></a>
+                            )}
                         </div>
 
                     </div>

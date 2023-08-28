@@ -15,13 +15,11 @@ function Footer(props) {
                     All Right Reserved &copy; 2023
                 </div>
                 <div class="social-media">
-                    <a href="#" target="_blank" class="fa fa-linkedin"></a>
-                    <a href="mailto: {props.email}" target="_blank" class="fa fa-envelope"></a>
-                    <a href="#" target="_blank" class="fa fa-github"></a>
-                    <a href="tel: {props.phone}" target="_blank" class="fa fa-phone"></a>
+                    <a href={props.linkedin} target="_blank" rel="noopener noreferrer" class="fa fa-linkedin"></a>
+                    <a href={props.github} target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
                 </div>
 
-            </section>
+            </section >
         </>
     )
 }

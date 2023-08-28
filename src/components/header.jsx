@@ -12,7 +12,6 @@ function Header(props) {
                     <a href="#about">About</a>
                     <a href="#projects">Project</a>
                     <a href="#footer">Contact</a>
-                    <a href="#">Resume</a>
 
                 </div>
             </section>
